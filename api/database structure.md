@@ -12,7 +12,7 @@ The folowing headings are the types used in the database.
 | email | str["a-z 0-9 @+.", 6-bit per char] | 40 char 30 bit | |
 | pronouns | str["a-z", 5-bit per char] | 8 char | A slash will be added simular to the following CCCC/CCCC |
 | about_me | str[unicode] | 64-bytes | |
-| server | list[int 2-byte] | 40 server | |
+| servers | list[int 2-byte] | 40 server | |
 
 ## Bot
 | attribute | type           | size         | other info |
@@ -31,7 +31,7 @@ The folowing headings are the types used in the database.
 | display_name | str[unicode] | 24 bytes||
 | channels | list[Channel 2-byte per channel] | 40 server  | |
 | channel_categories | list[ChannelCategory 2-byte per ChannelCategory] | 40 channel  | |
-| member | list[int 2-byte] | 40 server | |
+| members | list[int 2-byte] | 40 server | |
 
 ## ChannelCategory
 | attribute | type           | size         | other info |
