@@ -46,6 +46,7 @@ The folowing headings are the types used in the database.
 | id | int | 2 bytes |
 | display_name | str[unicode] | 24 bytes||
 | messages | list[Message 4-byte per message] | 1024 messages | |
+| pin_messages | list[Message 4-byte per message] | 40 messages | |
 
 ## Message
 | attribute | type           | size         | other info |
