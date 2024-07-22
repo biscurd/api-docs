@@ -30,10 +30,10 @@ The folowing headings are the types used in the database.
 | name | str["A-Z a-z 0-9 _ .",  6-bit per char] | 16 chars, 12 bytes | |
 | display_name | str[unicode] | 24 bytes||
 | channels | list[Channel 2-byte per channel] | 40 server  | |
-| channel_groups | list[ChannelGroup 2-byte per channel group] | 40 channel  | |
+| channel_categories | list[ChannelCategory 2-byte per ChannelCategory] | 40 channel  | |
 | member_list | list[int 2-byte] | 40 server | |
 
-## ChannelGroup
+## ChannelCategory
 | attribute | type           | size         | other info |
 |-----------|----------------|--------------|------------|
 | id | int | 2 bytes |
