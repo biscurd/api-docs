@@ -1,4 +1,4 @@
-# Todo
+# Colors
 - Background-0: used only for the first layer of background
 - Background-1: used for the second layer of background
 - Background-2: used for the third layer of background
