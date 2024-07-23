@@ -6,7 +6,6 @@ The folowing headings are the types used in the database.
 | attribute | type           | size         | other info |
 |-----------|----------------|--------------|------------|
 | id | int | 2 bytes |
-| token | int | 24 bytes |
 | name | str["A-Z a-z 0-9 _ .",  6-bit per char] | 16 chars, 12 bytes | |
 | display_name | str[unicode] | 24 bytes||
 | email | str["a-z 0-9 @+.", 6-bit per char] | 40 char 30 bit | |
@@ -18,7 +17,6 @@ The folowing headings are the types used in the database.
 | attribute | type           | size         | other info |
 |-----------|----------------|--------------|------------|
 | id | int | 2 bytes |
-| token | int | 24 bytes |
 | name | str["A-Z a-z 0-9 _ .",  6-bit per char] | 16 chars, 12 bytes | |
 | display_name | str[unicode] | 24 bytes||
 | about_me | str[unicode] | 64 bytes | |
